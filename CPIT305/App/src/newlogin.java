@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -14,8 +15,13 @@ public class newlogin extends JFrame {
 
     public newlogin() {
         setContentPane(panel1);
+        pack(); //resizes the frame
+        setLocationRelativeTo(null); //put it in center of screen
+        setSize(450,500);
+        setMinimumSize(new Dimension(450,500));
+        setMaximumSize(new Dimension(450,500));
+        setResizable(false);
         setTitle("Login");
-        setSize(450, 300);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         logo.setBounds(10, 10, 10, 10);
@@ -25,7 +31,8 @@ public class newlogin extends JFrame {
         button1Login.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                homePage p = new homePage();
+                new HomePage();
+                dispose();
 
             }
         });
@@ -39,13 +46,14 @@ public class newlogin extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 signUp signUp=  new signUp();
                 signUp.setVisible(true);
+                dispose();
 
             }
         });
     }
 
     public static void main(String[] args) {
-        newlogin log= new newlogin();
+        new newlogin();
 
     }
 }

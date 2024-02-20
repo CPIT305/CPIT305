@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="jgoodies-common-1.8">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-common-1.8.1" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-common-1.8.1/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-common-1.8.1" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-common-1.8.1" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-common-1.8.1" recursive="false" type="SOURCES" />
+  </library>
+</component>

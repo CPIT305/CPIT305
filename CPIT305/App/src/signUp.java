@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -12,8 +13,13 @@ public class signUp extends JFrame {
 
     public signUp() {
         setContentPane(panel1);
-        setTitle("signUp");
-        setSize(450, 300);
+        pack(); //resizes the frame
+        setLocationRelativeTo(null); //put it in center of screen
+        setSize(450,500);
+        setMinimumSize(new Dimension(450,500));
+        setMaximumSize(new Dimension(450,500));
+        setResizable(false);
+        setTitle("Sign Up");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
         signUpButton.addActionListener(new ActionListener() {
@@ -24,8 +30,8 @@ public class signUp extends JFrame {
              */
             @Override
             public void actionPerformed(ActionEvent e) {
-                homePage p = new homePage(); // to display the homePage frame
-                p.setVisible(true);
+                HomePage p = new HomePage(); // to display the homePage frame
+                dispose();
 
 
             }
@@ -36,6 +42,8 @@ public class signUp extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 newlogin newlogin=  new newlogin(); // display the login frame
                 newlogin.setVisible(true);
+                dispose();
+
             } {
 
 

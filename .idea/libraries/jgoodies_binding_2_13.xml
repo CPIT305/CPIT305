@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="jgoodies-binding-2.13">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-binding-2.13.0" />
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-forms-1.8.0" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-binding-2.13.0/docs/api" />
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-forms-1.8.0/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-binding-2.13.0" />
+      <root url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-forms-1.8.0" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-binding-2.13.0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-forms-1.8.0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-binding-2.13.0" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../CODES/jgoodies-forms-1.8.0" recursive="false" type="SOURCES" />
+  </library>
+</component>

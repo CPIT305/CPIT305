@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StatiscsPage">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="411" height="528"/>
+    </constraints>
+    <properties>
+      <background color="-2625045"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="6b1d8" binding="AnalysisPicPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-2625045"/>
+          <preferredSize width="0" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="a537e" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-2625045"/>
+              <preferredSize width="0" height="90"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="eb7e8" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-2625045"/>
+                  <preferredSize width="0" height="30"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9c190" class="javax.swing.JButton" binding="backButton" default-binding="true">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <text value="&lt; Back"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="51da8" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-2625045"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="14cfe" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <background color="-2625045"/>
+                      <preferredSize width="130" height="24"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="b2de9" class="javax.swing.JLabel" binding="income">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <horizontalAlignment value="0"/>
+                          <text value="Income"/>
+                        </properties>
+                      </component>
+                      <component id="7668c" class="javax.swing.JTextField" binding="a200$TextField" default-binding="true">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <horizontalAlignment value="0"/>
+                          <text value="200$"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="7d412" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <background color="-2625045"/>
+                      <preferredSize width="140" height="0"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e6850" class="javax.swing.JLabel" binding="total">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <horizontalAlignment value="0"/>
+                          <text value="Total"/>
+                        </properties>
+                      </component>
+                      <component id="f388a" class="javax.swing.JTextField" binding="a50$TextField" default-binding="true">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <horizontalAlignment value="0"/>
+                          <text value="50$"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="485cd" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-2625045"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="9e6ca" class="javax.swing.JLabel" binding="expenses">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <horizontalAlignment value="0"/>
+                          <text value="Expenses"/>
+                        </properties>
+                      </component>
+                      <component id="433a9" class="javax.swing.JTextField" binding="a150$TextField" default-binding="true">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <horizontalAlignment value="0"/>
+                          <text value="-150$"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d56ff" binding="historyPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="999d7" class="javax.swing.JLabel">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Expense History"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
