@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD:App/src/GUI/ConfirmSaves.form
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.ConfirmSaves">
+=======
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ConfirmSaves">
+>>>>>>> 084eb9a973b1d84698417bfad3d6dbe757eb81d9:CPIT305/App/src/ConfirmSaves.form
   <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>

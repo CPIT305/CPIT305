@@ -1,5 +1,8 @@
+<<<<<<< HEAD:App/src/GUI/Expense.java
 package GUI;
 
+=======
+>>>>>>> 084eb9a973b1d84698417bfad3d6dbe757eb81d9:CPIT305/App/src/Expense.java
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -36,6 +39,7 @@ public class Expense extends JFrame{
                 dispose();
             }
         });
+<<<<<<< HEAD:App/src/GUI/Expense.java
         saveButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -43,6 +47,8 @@ public class Expense extends JFrame{
                 dispose();
             }
         });
+=======
+>>>>>>> 084eb9a973b1d84698417bfad3d6dbe757eb81d9:CPIT305/App/src/Expense.java
     }
 
     public static void main(String[] args) {

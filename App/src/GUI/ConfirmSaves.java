@@ -1,5 +1,8 @@
+<<<<<<< HEAD:App/src/GUI/ConfirmSaves.java
 package GUI;
 
+=======
+>>>>>>> 084eb9a973b1d84698417bfad3d6dbe757eb81d9:CPIT305/App/src/ConfirmSaves.java
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
