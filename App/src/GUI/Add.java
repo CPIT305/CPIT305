@@ -1,17 +1,18 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class signUp extends JFrame {
-    private JTextField textField1;
-    private JTextField textField2;
-    private JPasswordField passwordField1;
-    private JButton signUpButton;
-    private JButton loginButton;
+public class Add extends JFrame {
     private JPanel panel1;
+    private JPanel panel;
+    private JButton backButton;
+    private JButton incomeButton;
+    private JButton expensesButton;
 
-    public signUp() {
+    public Add() {
         setContentPane(panel1);
         pack(); //resizes the frame
         setLocationRelativeTo(null); //put it in center of screen
@@ -19,36 +20,35 @@ public class signUp extends JFrame {
         setMinimumSize(new Dimension(450,500));
         setMaximumSize(new Dimension(450,500));
         setResizable(false);
-        setTitle("Sign Up");
+        setTitle("Add Income/Expense");
+        setSize(450, 300);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-        signUpButton.addActionListener(new ActionListener() {
-            /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
-             */
+
+        backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                HomePage p = new HomePage(); // to display the homePage frame
+                new HomePage();
                 dispose();
-
-
             }
         });
-        loginButton.addActionListener(new ActionListener() {
-
+        expensesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                newlogin newlogin=  new newlogin(); // display the login frame
-                newlogin.setVisible(true);
+                new Expense();
                 dispose();
-
-            } {
-
-
-
-                }
+            }
         });
+        incomeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new Expense();
+                dispose();
+            }
+        });
+    }
+
+    public static void main(String[] args) {
+        Add Add = new Add();
     }
 }

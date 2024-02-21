@@ -1,16 +1,17 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Add extends JFrame {
+public class ConfirmSaves extends JFrame{
+    private JPanel panel2;
     private JPanel panel1;
-    private JPanel panel;
-    private JButton backButton;
-    private JButton incomeButton;
-    private JButton expensesButton;
+    private JLabel message;
+    private JButton OK;
 
-    public Add() {
+    public ConfirmSaves(){
         setContentPane(panel1);
         pack(); //resizes the frame
         setLocationRelativeTo(null); //put it in center of screen
@@ -23,16 +24,16 @@ public class Add extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
 
-        backButton.addActionListener(new ActionListener() {
+        OK.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new HomePage();
+                new Add();
                 dispose();
             }
         });
     }
 
     public static void main(String[] args) {
-        Add Add = new Add();
+        ConfirmSaves Add = new ConfirmSaves();
     }
 }

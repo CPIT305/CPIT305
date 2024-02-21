@@ -1,3 +1,5 @@
+package GUI;
+
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -58,6 +60,10 @@ public class StatiscsPage {
             }
         });
     }
+
+
+
+
     public void showPie(){
         DefaultListModel dlm = new DefaultListModel();
         JList list = new JList(dlm);

@@ -1,3 +1,5 @@
+package Implementation;
+
 public class Income {
     User user;
     double income;
